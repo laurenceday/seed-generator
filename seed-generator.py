@@ -95,7 +95,7 @@ result_label = ttk.Label(frame, text="Produce 256 bits of entropy somehow:")
 result_label.grid(row=1, column=0, sticky=(tk.W))
 
 # Create a text field to display the binary
-result_text = tk.Text(frame, width=40, height=10)
+result_text = tk.Text(frame, width=40, height=7)
 result_text.grid(row=1, column=6, sticky=(tk.W, tk.E, tk.N, tk.S))
 
 # Create a button that will call generate_sha256 when clicked
@@ -107,7 +107,7 @@ hashed_result_label = ttk.Label(frame, text="Take the SHA256 of that entropy, ja
 hashed_result_label.grid(row=3, column=0, sticky=(tk.W))
 
 # Create a text field to display the hashed binary
-hashed_result_text = tk.Text(frame, width=40, height=10)
+hashed_result_text = tk.Text(frame, width=40, height=7)
 hashed_result_text.grid(row=3, column=6, sticky=(tk.W, tk.E, tk.N, tk.S))
 
 # Create a label
@@ -115,7 +115,7 @@ appended_result_label = ttk.Label(frame, text="Now split this into 24 groups of 
 appended_result_label.grid(row=4, column=0, sticky=(tk.W))
 
 # Create a text field to display the appended binary
-appended_result_text = tk.Text(frame, width=40, height=10)
+appended_result_text = tk.Text(frame, width=40, height=7)
 appended_result_text.grid(row=4, column=6, sticky=(tk.W, tk.E, tk.N, tk.S))
 
 howto_label = ttk.Label(frame, text="Convert binary to decimal:\nsum of {bit} * 2 ^ {position}\nafter reversing the string (LSB position 0):")
