@@ -26,3 +26,7 @@ Try edit the binary a bit and click `Generate` again - see how the words change 
 Congratulations, you have now seen the wizard behind the curtain.
 
 I'll flesh this out more with an explanation if people ask.
+
+## Acknowledgements
+
+Thanks to [Xavier Lavayssière](https://www.twitter.com/XavierLava) for PR on alignment and better documentation on requirements.
