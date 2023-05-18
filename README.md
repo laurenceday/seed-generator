@@ -16,6 +16,10 @@ Click 'Entropy' to generate 256 bits.
 
 Then click 'Generate' to do the rest - how the pieces are formed is explained with labels.
 
+![img.png](images/demo.jpg)
+
+## Tinker Around
+
 Try edit the binary a bit and click 'Generate' again - see how the words change based on what parts you edit.
 
 Congratulations, you have now seen the wizard behind the curtain.
