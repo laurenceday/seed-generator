@@ -16,7 +16,7 @@ Click 'Entropy' to generate 256 bits.
 
 Then click 'Generate' to do the rest - how the pieces are formed is explained with labels.
 
-![img.png](images/demo.jpg)
+![img.png](images/demo_fixed.jpg)
 
 ## Tinker Around
 
