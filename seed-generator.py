@@ -59,7 +59,7 @@ def generate_sha256():
     # Insert the new binary hash into the hashed result text field
     hashed_result_text.insert(tk.END, sha256_binary)
 
-    # Append first 64 bits of SHA256 to original binary and display in appended result text field
+    # Append first 8 bits of SHA256 to original binary and display in appended result text field
     appended_binary = binary_str + sha256_binary[:8]
     appended_result_text.delete(1.0, tk.END)
     appended_result_text.insert(tk.END, appended_binary)
