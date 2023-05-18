@@ -95,8 +95,8 @@ result_label = ttk.Label(frame, text="Produce 256 bits of entropy somehow:")
 result_label.grid(row=1, column=0, sticky=(tk.W))
 
 # Create a text field to display the binary
-result_text = tk.Text(frame, width=40, height=7)
-result_text.grid(row=1, column=6, sticky=(tk.W, tk.E, tk.N, tk.S))
+result_text = tk.Text(frame, width=48, height=6)
+result_text.grid(row=1, column=1, sticky=(tk.W, tk.E, tk.N, tk.S), columnspan=4)
 
 # Create a button that will call generate_sha256 when clicked
 hash_button = ttk.Button(frame, text="Generate", command=generate_sha256)
@@ -107,16 +107,16 @@ hashed_result_label = ttk.Label(frame, text="Take the SHA256 of that entropy, ja
 hashed_result_label.grid(row=3, column=0, sticky=(tk.W))
 
 # Create a text field to display the hashed binary
-hashed_result_text = tk.Text(frame, width=40, height=7)
-hashed_result_text.grid(row=3, column=6, sticky=(tk.W, tk.E, tk.N, tk.S))
+hashed_result_text = tk.Text(frame, width=48, height=6)
+hashed_result_text.grid(row=3, column=1, sticky=(tk.W, tk.E, tk.N, tk.S), columnspan=4)
 
 # Create a label
 appended_result_label = ttk.Label(frame, text="Now split this into 24 groups of 11 bits,\nconvert to decimal, and map the decimal to\nthe appropriate index in the BIP39 list:")
 appended_result_label.grid(row=4, column=0, sticky=(tk.W))
 
 # Create a text field to display the appended binary
-appended_result_text = tk.Text(frame, width=40, height=7)
-appended_result_text.grid(row=4, column=6, sticky=(tk.W, tk.E, tk.N, tk.S))
+appended_result_text = tk.Text(frame, width=48, height=6)
+appended_result_text.grid(row=4, column=1, sticky=(tk.W, tk.E, tk.N, tk.S), columnspan=4)
 
 howto_label = ttk.Label(frame, text="Convert binary to decimal:\nsum of {bit} * 2 ^ {position}\nafter reversing the string (LSB position 0):")
 howto_label.grid(row=7, column=0, sticky=(tk.W))

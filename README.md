@@ -8,19 +8,20 @@ Here's an illustration.
 
 ## How To
 
-Run ./python seed-generator.py
+Run `./python seed-generator.py`. You will need Python 3 and the module tkinter (e.g. `pip3 install tkinter`, `brew install python-tk`
+ or `sudo apt-get install python3-tk`).
 
 It's not pretty, and it's got a crap UI (I am not good at front-end).
 
-Click 'Entropy' to generate 256 bits.
+Click `Entropy` to generate 256 bits.
 
-Then click 'Generate' to do the rest - how the pieces are formed is explained with labels.
+Then click `Generate` to do the rest - how the pieces are formed is explained with labels.
 
 ![img.png](images/demo_fixed.jpg)
 
 ## Tinker Around
 
-Try edit the binary a bit and click 'Generate' again - see how the words change based on what parts you edit.
+Try edit the binary a bit and click `Generate` again - see how the words change based on what parts you edit.
 
 Congratulations, you have now seen the wizard behind the curtain.
 
