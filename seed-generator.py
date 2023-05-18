@@ -118,7 +118,7 @@ appended_result_label.grid(row=4, column=0, sticky=(tk.W))
 appended_result_text = tk.Text(frame, width=40, height=10)
 appended_result_text.grid(row=4, column=6, sticky=(tk.W, tk.E, tk.N, tk.S))
 
-howto_label = ttk.Label(frame, text="Convert binary to decimal:\nsum of {byte} * 2 ^ {position}\nafter reversing the string (LSB position 0):")
+howto_label = ttk.Label(frame, text="Convert binary to decimal:\nsum of {bit} * 2 ^ {position}\nafter reversing the string (LSB position 0):")
 howto_label.grid(row=7, column=0, sticky=(tk.W))
 
 # Create a 6x4 grid of labels to display binary chunks
